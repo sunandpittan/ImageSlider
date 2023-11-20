@@ -27,7 +27,7 @@ export default function Slider() {
         images={images}
         showBullets={true}
         showNavs={true}
-        transSpeed={transspeed}
+        slideDuration={transspeed}
         style={{ width: "75%", height: "80vh" }}
       />
       <div className="w-50 mx-auto">
