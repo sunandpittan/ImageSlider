@@ -20,15 +20,15 @@ export default function Slider() {
   const [transspeed, setTransspeed] = useState(0.5);
 
   return (
-    <div className="w-75 mx-auto mt-2 shadow">
+    <div className="mx-auto mt-2 shadow" style={{ width: "810px" }}>
       <SimpleImageSlider
-        width={"75%"}
-        height={"80vh"}
+        width={"810px"}
+        height={"468px"}
         images={images}
         showBullets={true}
         showNavs={true}
         slideDuration={transspeed}
-        style={{ width: "75%", height: "80vh" }}
+        style={{}}
       />
       <div className="w-50 mx-auto">
         <Form.Label>Transition speed:</Form.Label>
